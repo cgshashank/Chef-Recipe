@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.cg.recipe">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/chef_recipe_white"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.app.cg.recipe.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.app.cg.recipe.ActivityMain"></activity>
+        <activity android:name="com.app.cg.recipe.ActivityCategoryDetails"></activity>
+        <activity android:name="com.app.cg.recipe.ActivityRecipeDetails"></activity>
+
+    </application>
+
+</manifest>

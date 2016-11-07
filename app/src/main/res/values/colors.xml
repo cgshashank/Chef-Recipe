@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#62a6fa</color>
+    <color name="colorPrimaryDark">#4885d1</color>
+    <color name="colorPrimaryLight">#78b2f9</color>
+
+    <color name="colorAccent">#FE5722</color>
+    <color name="colorAccentDark">#F00000</color>
+    <color name="colorAccentLight">#FF5FA0</color>   <!-- used when press and hold the checkbox-->
+
+    <color name="grey_hard">#96989A</color>
+    <color name="grey_medium">#BDBFC1</color>
+    <color name="grey_soft">#F5F5F5</color>
+
+    <color name="grey_bg">#E6E6E6</color>
+
+    <color name="icon_drawer_color">#727272</color>
+
+    <!--color name="black_overlay">#66000000</color-->
+</resources>
