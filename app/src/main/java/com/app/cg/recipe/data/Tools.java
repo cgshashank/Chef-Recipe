@@ -13,13 +13,14 @@ public class Tools {
         Float f = null;
         try {
             StringBuilder strBuild = new StringBuilder();
-            strBuild.append(android.os.Build.VERSION.RELEASE.substring(0, 2));
-            f = new Float(strBuild.toString());
+            strBuild.append ( android.os.Build.VERSION.RELEASE );
+            f = Float.valueOf ( strBuild.toString () );
+            System.out.println ( "android.os.build.VERSION" + f );
         } catch (NumberFormatException e) {
-            Log.e("", "erro ao recuperar a versão da API" + e.getMessage());
+            Log.e ( "", "Error retrieving API" + e.getMessage () );
         }
 
-        return f.floatValue();
+        return f;
     }
 
     public static void systemBarLolipop(Activity act){

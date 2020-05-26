@@ -7,6 +7,6 @@
     <string name="action_settings">Settings</string>
     <!--exit notification-->
     <string name="press_again_exit_app">Press again to exit</string>
-
+    <string name="Nothing_found_here">No Item Here</string>
 
 </resources>

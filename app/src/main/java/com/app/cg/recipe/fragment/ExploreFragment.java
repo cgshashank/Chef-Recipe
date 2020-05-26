@@ -36,14 +36,14 @@ public class ExploreFragment extends Fragment {
         // activate fragment menu
         setHasOptionsMenu(true);
 
-        recyclerView = (RecyclerView) view.findViewById(R.id.recyclerView);
-        lyt_notfound = (LinearLayout) view.findViewById(R.id.lyt_notfound);
+        recyclerView = view.findViewById ( R.id.recyclerView );
+        lyt_notfound = view.findViewById ( R.id.lyt_notfound );
         LinearLayoutManager mLayoutManager = new GridLayoutManager(getActivity(), 2);
         recyclerView.setLayoutManager(mLayoutManager);
         recyclerView.setHasFixedSize(true);
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         mAdapter = new RecipeGridAdapter(getActivity(), Constant.getItemAllRandom(getActivity()).subList(0, 15));
-        recyclerView.setAdapter(mAdapter);
+        recyclerView.setAdapter ( mAdapter );
         return view;
     }
 
